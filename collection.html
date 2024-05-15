@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="collection.css">
+</head>
+<body>
+  <h1 class="h1"><span>P</span>hoto <span>G</span>allery</h1>
+    <div class="collection">
+    
+        <div class="thumbnails">
+
+            <div class="image">
+                <img src="image/woe.webp" alt="island" class="thumb" data-full="image/woe.webp">
+            </div>
+            <div class="image">
+                <img src="image/cha.jpg" alt="animal" class="thumb" data-full="image/cha.jpg">
+            </div>
+            <div class="image">
+                <img src="image/grass.jpg" alt="grass" class="thumb" data-full="image/grass.jpg">
+            </div>
+            <div class="image">
+                <img src="image/gitl.jpg" alt="girl" class="thumb" data-full="image/gitl.jpg">
+            </div>
+            <div class="image">
+              <img src="image/1.jpg" alt="1" class="thumb" data-full="image/1.jpg">
+          </div>
+          <div class="image">
+            <img src="image/3.jpg" alt="3" class="thumb" data-full="image/3.jpg">
+        </div>
+        <div class="image">
+          <img src="image/4.jpg" alt="4" class="thumb" data-full="image/4.jpg">
+      </div>
+      <div class="image">
+        <img src="image/5.png" alt="1" class="thumb" data-full="image/5.png">
+    </div>
+            
+        </div>
+    </div>
+
+    <div id="lightbox" class="modal">
+        <a href="collection.html" class="close">&times;</a>
+        <img class="modal-content" id="lightbox-img">
+        <a class="prev" id="prevBtn">&lsaquo;</a>
+        <a class="next" id="nextBtn">&rsaquo;</a>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
